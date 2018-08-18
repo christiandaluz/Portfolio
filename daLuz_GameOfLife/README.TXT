@@ -1,3 +1,7 @@
+Completed 14 December 2017 for Graphical User Inteface course.
+Final Grade for Project: 100/100
+Final Grade for Course: A+
+
 The Game of Life is a cellular automaton designed by John Conway, a British
 mathematician, in 1970. The user creates an initial configuration and then
 observes its evolution.
