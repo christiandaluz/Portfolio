@@ -1,18 +1,5 @@
-/*
-CSC381: Applied Cryptograph
-Discrete Logarithmic Problems Homework
-Prof. Dr. Kees Leune
-Spring 2016
-1. Write a program that computes the two public keys, and the common
-key for the DHKE scheme with the parameters p = 467; alpha = 2, and
-(a) a = 3; b = 5
-(b) a = 400; b = 134
-(c) a = 288; b = 57
-In all cases, perform the necessary computation of the common key for
-Alice and Bob.
- */
 import java.math.BigInteger;
-public class Problem1 {
+public class DHKE {
 	public static void main(String[] args) {
 		//declare and initialize variables
 		BigInteger p = new BigInteger("467");
