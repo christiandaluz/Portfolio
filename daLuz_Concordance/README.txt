@@ -7,4 +7,4 @@ choice.
 Upon running the application, the user is prompted for the name of the file to be read. Two sample
 text files are provided.
 
-Possible improvement to the project would involve trimming punctuation from the ends of words.
+A possible improvement to the project would involve trimming punctuation from the ends of words.
