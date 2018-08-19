@@ -1,0 +1,24 @@
+Alice's public key = alpha^a mod p = 2^3 mod 467 = 8
+Bob's public key = alpha^b mod p = 2^5 mod 467 = 32
+Alice computes kpubB^a = 32^3 mod 467 = 78
+Bob computes kpubA^b = 8^5 mod 467 = 78
+78 = 78
+Session key computation successful!
+
+
+Alice's public key = alpha^a mod p = 2^400 mod 467 = 137
+Bob's public key = alpha^b mod p = 2^134 mod 467 = 84
+Alice computes kpubB^a = 84^400 mod 467 = 90
+Bob computes kpubA^b = 137^134 mod 467 = 90
+90 = 90
+Session key computation successful!
+
+
+Alice's public key = alpha^a mod p = 2^288 mod 467 = 272
+Bob's public key = alpha^b mod p = 2^57 mod 467 = 313
+Alice computes kpubB^a = 313^288 mod 467 = 421
+Bob computes kpubA^b = 272^57 mod 467 = 421
+421 = 421
+Session key computation successful!
+
+

@@ -1,0 +1,40 @@
+Bob computes beta = alpha^d mod p = 2^105 mod 467 = 444
+Alice computes ke = alpha^i mod p = 2^213 mod 467 = 29
+Alice computes her km = beta^i mod p = 444^213 mod 467 = 292
+Alice encrypts x; y = x*kmA mod p = 33*292 mod 467 = 296
+Bob computers his km = ke^d mod p = 29^105 mod 467 = 292
+Bob decrypts y: x = y*kmB^-1 mod p = 296*292^-1 mod 467 = 33
+33 = 33
+Decryption successful!
+
+
+Bob computes beta = alpha^d mod p = 2^105 mod 467 = 444
+Alice computes ke = alpha^i mod p = 2^123 mod 467 = 125
+Alice computes her km = beta^i mod p = 444^123 mod 467 = 278
+Alice encrypts x; y = x*kmA mod p = 33*278 mod 467 = 301
+Bob computers his km = ke^d mod p = 125^105 mod 467 = 278
+Bob decrypts y: x = y*kmB^-1 mod p = 301*278^-1 mod 467 = 33
+33 = 33
+Decryption successful!
+
+
+Bob computes beta = alpha^d mod p = 2^300 mod 467 = 317
+Alice computes ke = alpha^i mod p = 2^45 mod 467 = 80
+Alice computes her km = beta^i mod p = 317^45 mod 467 = 12
+Alice encrypts x; y = x*kmA mod p = 248*12 mod 467 = 174
+Bob computers his km = ke^d mod p = 80^300 mod 467 = 12
+Bob decrypts y: x = y*kmB^-1 mod p = 174*12^-1 mod 467 = 248
+248 = 248
+Decryption successful!
+
+
+Bob computes beta = alpha^d mod p = 2^300 mod 467 = 317
+Alice computes ke = alpha^i mod p = 2^47 mod 467 = 320
+Alice computes her km = beta^i mod p = 317^47 mod 467 = 74
+Alice encrypts x; y = x*kmA mod p = 248*74 mod 467 = 139
+Bob computers his km = ke^d mod p = 320^300 mod 467 = 74
+Bob decrypts y: x = y*kmB^-1 mod p = 139*74^-1 mod 467 = 248
+248 = 248
+Decryption successful!
+
+
