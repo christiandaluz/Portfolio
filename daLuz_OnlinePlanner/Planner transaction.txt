@@ -1,0 +1,35 @@
+begin transaction;
+
+--User table
+CREATE TABLE client (
+	clientid	SERIAL UNIQUE,
+	username	VARCHAR(30),
+	passwordhash	TEXT NOT NULL,
+	email		VARCHAR(40) NOT NULL,
+	PRIMARY KEY	(clientid, username)
+);
+
+--Category table
+CREATE TABLE category (
+	catid		SERIAL UNIQUE,
+	clientid	INTEGER,
+	catname		VARCHAR(40) NOT NULL,
+	PRIMARY KEY	(clientid, catid),
+	FOREIGN KEY	(clientid) REFERENCES client(clientid)
+);
+--Activity table
+CREATE TABLE activity (
+	activityid	SERIAL,
+	catid		INTEGER,
+	activityname	VARCHAR(125) NOT NULL,
+	dueby		TIMESTAMP NOT NULL CHECK (CURRENT_TIMESTAMP < dueby),
+	priority	INTEGER NOT NULL CHECK (priority <= 5 AND priority >= 1),
+	description	TEXT,
+	status		VARCHAR(15) NOT NULL CHECK (status in ('complete', 'incomplete')),
+	estimatedtime	INTEGER CHECK (estimatedtime > 0), --measured in minutes
+	PRIMARY KEY 	(activityid, catid),
+	FOREIGN KEY	(catid) REFERENCES category(catid)
+);
+
+
+commit;

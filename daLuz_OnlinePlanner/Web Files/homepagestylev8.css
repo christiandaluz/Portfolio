@@ -1,0 +1,102 @@
+.footer {
+        width: 90%;
+        height: auto;
+        font-family: 'Montserrat',Arial,sans-serif;
+        font-size: 10px;
+        text-align: center;
+        color: #4b8f9b;
+        border: none;
+        background: transparent;
+	font-variant: normal;
+}
+
+h2 {
+	font-family: 'Kavivanar', Arial, sans-serif;
+	font-size: 56px;
+	color: #b56357;
+	text-align: center;
+	font-variant: none;
+}
+.day {
+	font-family: 'Varela Round',Arial,sans-serif;
+	font-variant: normal;
+}
+body {
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 26px;
+	font-variant: small-caps;
+}
+img {
+	height: 200px;
+	width: 400px;
+}
+.title {
+	width: 90%;
+	border: 1px solid #b0a9a9;
+	border-style: hidden hidden solid hidden;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.homepage {
+	width: 90%;
+	height: auto;
+	text-align: center;	
+	overflow: hidden;
+/*	column-count: 3;
+	column-width: auto;
+	column-gap: 0px;
+	-webkit-column-break-inside: avoid;
+*/
+}
+
+
+.idk {
+	background-color: #d4d7cd;
+	padding: 5px;
+	text-align: center;
+	display: inline-block;
+	width: 400px;
+	margin-bottom: 20px;
+	border: transparent;
+	border-radius: 10px;
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+  /* ...and now for the proper property */
+	transition:.2s;
+}
+
+.idk:hover {
+	background-color: #b0a9a9;
+	-webkit-box-shadow: 0px 18px 33px -16px rgba(143,136,136,1);
+	-moz-box-shadow: 0px 18px 33px -16px rgba(143,136,136,1);
+	box-shadow: 0px 18px 33px -16px rgba(143,136,136,1);
+}
+
+a:visited {
+	color: #472f31;
+	text-decoration: none;
+}
+
+a {
+	color: #472f31;
+	text-decoration: none;
+	display: inline-block;
+}
+
+div {
+	width: 50%;
+	height: auto;
+	background: transparent;
+	text-align: center;
+	padding: 15px;
+	display: inline-block;
+}
+
+html {
+	background: #faf8f8;
+}
+
+
