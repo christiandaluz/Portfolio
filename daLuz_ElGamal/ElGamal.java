@@ -1,13 +1,5 @@
-/*
-3. Write a program that can encrypt and decrypt the following messages
-with the Elgamal scheme (p = 467 and alpha = 2):
-(a) kpr = d = 105; i = 213; x = 33
-(b) kpr = d = 105; i = 123; x = 33
-(c) kpr = d = 300; i = 45; x = 248
-(d) kpr = d = 300; i = 47; x = 248
-*/
 import java.math.BigInteger;
-public class Problem3 {
+public class ElGamal {
 	public static void main(String[] args) {
 		//Declare and initialize variables
 		BigInteger p = new BigInteger("467");
