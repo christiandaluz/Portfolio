@@ -5,7 +5,7 @@ This program demonstrates the Diffie-Hellman Key Exchange using preloaded values
 
 "The Diffie-Hellman Key Exchange (DHKE)... was the first asymmetric scheme published in open literature.... It 
 provides a practical solution to the key distribution problem, i.e., it enables two parties to derive a common 
-secret key by communicating over an insecure channel." (Understanding Cryptography, by Christof Paar and 
+secret key by communicating over an insecure channel." (Understanding Cryptography p. 206, by Christof Paar and 
 Jan Pelzl)
 
 A large prime "p" and an integer "alpha" such that 1 < alpha < p-1 are chosen and then published. 
